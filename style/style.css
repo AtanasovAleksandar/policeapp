@@ -1,0 +1,326 @@
+body {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.nav {
+    z-index: 1;
+    background: blue;
+    height: 50px;
+position: relative;
+}
+
+.left {
+    z-index: 1;
+    position: relative;
+    width: 50%;
+    height:587px;
+    background: linear-gradient(to bottom , blue, purple);
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    float: left;
+
+}
+
+.slika {
+    z-index: 3;
+    position: absolute;
+    padding-left: 44.3%;
+    margin-top: -40px;
+    width: 60px;
+    height: 60px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ img {
+     position: absolute;
+    z-index: 4;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: 44.3%;
+    margin-right: auto;
+}
+
+.right {
+    z-index: 1;
+    border-top: 5px solid black;
+    width: 50%;
+    height: 587px;
+    float: right;
+
+background: linear-gradient(to bottom , blue, purple);
+    float: right;
+}
+
+
+
+.social {
+    z-index: 5;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 4px;
+}
+
+.social1 {
+    z-index: 5;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 95px;
+    margin-top: 4px;
+}
+.social2 {
+    z-index: 5;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 4px;
+ }
+
+ .social3 {
+    z-index: 5;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 205px;
+    margin-top: 4px;
+ }
+
+ p {
+   text-align: right;
+    z-index: 2;
+    position: absolute;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 1050px;
+    padding-top: 5px;
+    color: white;
+    letter-spacing: 3px;
+ }
+
+
+/* Desne del  */
+
+.log {
+    z-index: 2;
+     text-align: center;
+    padding-top: 21px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 4px;
+
+}
+
+input {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+input[type=text] {
+
+    width: 300px;
+    height: 30px;
+    margin-left: 250px;
+    margin-top: 45px;
+
+    background-color: rgba(23, 47, 65, 0.5);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+input[type=password] {
+  width: 300px;
+    height: 50px;
+    margin-left: 250px;
+    margin-top: 20px;
+
+    background-color: rgba(23, 47, 65, 0.5);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    }
+
+input[type=submit]{
+     width: 250px;
+    height: 40px;
+    margin-left: 250px;
+    margin-top: 20px;
+
+    background-color: rgba(206, 199, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+.reg {
+ width: 300px;
+    height: 50px;
+    margin-left: 250px;
+    margin-top: 20px;
+
+    background-color: rgba(137, 53, 11, 0.5);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.brz {
+
+    position: absolute;
+    z-index: 4;
+    width: 50px;
+    height: 50px;
+    margin-top: -386px;
+    margin-left: 150px;
+}
+
+.ime {
+
+    position: absolute;
+    z-index: 4;
+    width: 50px;
+    height: 50px;
+    margin-top: -259px;
+    margin-left: 150px;
+}
+
+.les {
+
+    position: absolute;
+    z-index: 4;
+    width: 50px;
+    height: 50px;
+    margin-top: -165px;
+    margin-left: 150px;
+}
+
+/*main stranata */
+
+p {
+    z-index: 4;
+    margin-left: 0px;
+    padding-top:60px;
+    font-size: 12px;
+    margin: 20px 10px 20px;
+
+    text-align: center;
+}
+
+.tarif {
+    width: 200px;
+    height: 150px;
+    margin-top: 250px;
+    margin-left: 250px;
+}
+
+.baraj {
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+input[type=radio] {
+  border: 1px solid #fff;
+  padding: 0.5em;
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+}
+
+input[type=radio]:checked {
+  background: url(data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==) no-repeat center center;
+  background-size: 9px 9px;
+}
+
+input[type=radio]:focus {
+  outline-color: transparent;
+}
+
+
+.dane {
+
+    margin-left: 290px;
+    margin-top: 20px;
+
+}
+
+.kaz {
+    margin-left: -30px;
+}
+
+
+.svet {
+    z-index: 4;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-top: -200px;
+    margin-left: 80px;
+}
+
+.poj {
+    z-index: 4;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-top: -150px;
+    margin-left: 110px;
+}
+
+
+.sem {
+    z-index: 4;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-top: -100px;
+    margin-left: 43px;
+}
+
+
+.alkoo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: -330px;
+    margin-left: 180px;
+}
+
+.doc {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: -410px;
+    margin-left: 178px;
+}
+
+.sped {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: -260px;
+    margin-left: 178px;
+}
+
+.najaven {
+  align:right;
+  margin-left: 600px;
+}
